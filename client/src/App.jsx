@@ -23,8 +23,6 @@ const App = () => {
   };
 
   useEffect(() => {
-    const API_KEY = 'AIzaSyBBwrEJTAcWIlkxJ87uO8UYynW6wBl0tKk';
-    const CHANNEL_ID = 'UChVzP7gNOlkymoo000Y9_6Q';
 
     const fetchYouTubeVideos = async () => {
       try {
